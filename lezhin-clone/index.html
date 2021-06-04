@@ -39,8 +39,10 @@
           <li><a class="sale-menu" href="#">SALE</a></li>
         </ul>
       </div>
+
+      <!-- content-main-slick -->
       <div class="content-main-slick">
-        <div class="slick">
+        <div class="slick1">
           <div class="slide s1">
             <img
               src="https://ccdn.lezhin.com/v2/inventory_items/5617291107827712/media/upperBanner.webp?updated=1622457511000&width=1180"
@@ -52,15 +54,17 @@
               alt="s1">
           </div>
         </div>
-        <div id="pager">
+        <div class="pager">
           <div class="arrow prev"> <span>이전</span> </div>
           <div class="arrow next"> <span>다음</span> </div>
         </div>
       </div>
+
+      <!-- content-main-lanking -->
       <div class="content-main-lanking">
         <p class="title">랭킹</p>
         <ul class="category">
-          <li><a href="#">전체</a></li>
+          <li class="on"><a href="#">전체</a></li>
           <li><a href="#">로맨스</a></li>
           <li><a href="#">BL</a></li>
           <li><a href="#">드라마</a></li>
@@ -151,173 +155,208 @@
           </div>
         </div>
       </div>
+
+      <!-- slick2 -->
       <div class="content-main-new">
         <div class="new-title-wrap">
           <p class="title">신작연재</p>
-          <ul>
-            <li><a href="#" class="title-arrow title-prev disabled"></a></li>
-            <li><a href="#" class="title-arrow title-next"></a></li>
+          <ul class="pager">
+            <li>
+              <div class="title-arrow title-prev prev"></div>
+            </li>
+            <li>
+              <div class="title-arrow title-next next"></div>
+            </li>
           </ul>
         </div>
-        <ul class="new-wrap">
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/5612748599263232/images/tall.webp?updated=1622599764584&width=554') no-repeat">
-              </div>
-              <p>도깨비도 수풀이 있어야 모인다[개정판]</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/6400253992501248/images/tall.webp?updated=1622600556640&width=554') no-repeat">
-              </div>
-              <p>바람</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/5611356766994432/images/tall.webp?updated=1622448033253&width=554') no-repeat">
-              </div>
-              <p>잘자 내꿈궈</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/5275168827310080/images/tall.webp?updated=1622440918860&width=554') no-repeat">
-              </div>
-              <p>조만국박람회</p>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="content-main content-main-new-comic">
-        <div class="new-title-wrap">
-          <p class="title">신규 만화</p>
-          <ul>
-            <li><a href="#" class="title-arrow title-prev disabled"></a></li>
-            <li><a href="#" class="title-arrow title-next"></a></li>
+
+        <div class="content-main-slick2">
+          <div class="slick2">
+            <div class="slide s1">
+              <a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/5612748599263232/images/tall.webp?updated=1622599764584&width=554') no-repeat">
+                </div>
+                <p>도깨비도 수풀이 있어야 모인다[개정판]</p>
+              </a>
+            </div>
+            <div class="slide s2">
+              <a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/6400253992501248/images/tall.webp?updated=1622600556640&width=554') no-repeat">
+                </div>
+                <p>바람</p>
+              </a>
+            </div>
+            <div class="slide s3">
+              <a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/5611356766994432/images/tall.webp?updated=1622448033253&width=554') no-repeat">
+                </div>
+                <p>잘자 내꿈궈</p>
+              </a>
+            </div>
+            <div class="slide s4">
+              <a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/5275168827310080/images/tall.webp?updated=1622440918860&width=554') no-repeat">
+                </div>
+                <p>조만국박람회</p>
+              </a>
+            </div>
+            <div class="slide s5">
+              <a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/5275168827310080/images/tall.webp?updated=1622440918860&width=554') no-repeat">
+                </div>
+                <p>조만국박람회</p>
+              </a>
+            </div>
+          </div>
+          <div class="pager">
+            <div class="arrow prev"></div>
+            <div class="arrow next"></div>
+          </div>
+        </div>
+        <div class="content-main content-main-new-comic">
+          <div class="new-title-wrap">
+            <p class="title">신규 만화</p>
+            <ul>
+              <li><a href="#" class="title-arrow title-prev disabled"></a></li>
+              <li><a href="#" class="title-arrow title-next"></a></li>
+            </ul>
+          </div>
+          <ul class="new-comic-wrap">
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/4777925649170432/images/tall.webp?updated=1622607163144&width=354') no-repeat">
+                </div>
+                <p>완전 귀여운 어쩌구</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/6000384423559168/images/tall.webp?updated=1622631724482&width=354') no-repeat">
+                </div>
+                <p>사랑하는 문독 어쩌구</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/5098498250047488/images/tall.webp?updated=1622607123973&width=354') no-repeat">
+                </div>
+                <p>용의주도 대표님의 어쩌구</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/5452694002401280/images/tall.webp?updated=1622607142131&width=354') no-repeat">
+                </div>
+                <p>엉탓</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/6047328617431040/images/tall.webp?updated=1622604477315&width=354') no-repeat">
+                </div>
+                <p>아이돌 챌린지</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/4592592441638912/images/tall.webp?updated=1622604431345&width=354') no-repeat">
+                </div>
+                <p>도쿄 리벤저스</p>
+              </a>
+            </li>
           </ul>
         </div>
-        <ul class="new-comic-wrap">
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/4777925649170432/images/tall.webp?updated=1622607163144&width=354') no-repeat">
-              </div>
-              <p>완전 귀여운 어쩌구</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/6000384423559168/images/tall.webp?updated=1622631724482&width=354') no-repeat">
-              </div>
-              <p>사랑하는 문독 어쩌구</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/5098498250047488/images/tall.webp?updated=1622607123973&width=354') no-repeat">
-              </div>
-              <p>용의주도 대표님의 어쩌구</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/5452694002401280/images/tall.webp?updated=1622607142131&width=354') no-repeat">
-              </div>
-              <p>엉탓</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/6047328617431040/images/tall.webp?updated=1622604477315&width=354') no-repeat">
-              </div>
-              <p>아이돌 챌린지</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/4592592441638912/images/tall.webp?updated=1622604431345&width=354') no-repeat">
-              </div>
-              <p>도쿄 리벤저스</p>
-            </a>
-          </li>
-        </ul>
-      </div>
 
-      <div class="content-main content-main-new-event">
-        <div class="new-title-wrap">
-          <p class="title">✨EVENT✨ 시대극을 품은 레진🐉</p>
-          <ul>
-            <li><a href="#" class="title-arrow title-prev disabled"></a></li>
-            <li><a href="#" class="title-arrow title-next"></a></li>
+        <div class="content-main content-main-new-event">
+          <div class="new-title-wrap">
+            <p class="title">✨EVENT✨ 시대극을 품은 레진🐉</p>
+            <ul>
+              <li><a href="#" class="title-arrow title-prev disabled"></a></li>
+              <li><a href="#" class="title-arrow title-next"></a></li>
+            </ul>
+          </div>
+          <ul class="new-comic-wrap">
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/6711525954355200/images/tall.webp?updated=1622600452878&width=354') no-repeat">
+                </div>
+                <p>연목구애</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/5533113486409728/images/tall.webp?updated=1622600477200&width=354') no-repeat">
+                </div>
+                <p>삼작미인가</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/6647348622786560/images/tall.webp?updated=1622600505160&width=354') no-repeat">
+                </div>
+                <p>매분구</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/5607334122946560/images/tall.webp?updated=1622600512569&width=354') no-repeat">
+                </div>
+                <p>사라사(컬러판) [연재]</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/4529839812378624/images/tall.webp?updated=1622600545689&width=354') no-repeat">
+                </div>
+                <p>눈이 나려 꽃 [연재]</p>
+              </a>
+            </li>
+            <li><a href="#">
+                <div class="new-wrap-image"
+                  style="background:url('https://ccdn.lezhin.com/v2/comics/6400253992501248/images/tall.webp?updated=1622600556640&width=354') no-repeat">
+                </div>
+                <p>바람</p>
+              </a>
+            </li>
           </ul>
         </div>
-        <ul class="new-comic-wrap">
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/6711525954355200/images/tall.webp?updated=1622600452878&width=354') no-repeat">
-              </div>
-              <p>연목구애</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/5533113486409728/images/tall.webp?updated=1622600477200&width=354') no-repeat">
-              </div>
-              <p>삼작미인가</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/6647348622786560/images/tall.webp?updated=1622600505160&width=354') no-repeat">
-              </div>
-              <p>매분구</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/5607334122946560/images/tall.webp?updated=1622600512569&width=354') no-repeat">
-              </div>
-              <p>사라사(컬러판) [연재]</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/4529839812378624/images/tall.webp?updated=1622600545689&width=354') no-repeat">
-              </div>
-              <p>눈이 나려 꽃 [연재]</p>
-            </a>
-          </li>
-          <li><a href="#">
-              <div class="new-wrap-image"
-                style="background:url('https://ccdn.lezhin.com/v2/comics/6400253992501248/images/tall.webp?updated=1622600556640&width=354') no-repeat">
-              </div>
-              <p>바람</p>
-            </a>
-          </li>
-        </ul>
+
       </div>
 
-    </div>
 
 
+      <script>
+        $(document).ready(function () {
+          $('.slick1').slick({
+            dots: true,
+            arrows: true,
+            autoplay: true,
+            prevArrow: $('.content-main-slick .prev'),
+            nextArrow: $('.content-main-slick .next'),
+            infinite: true,
+            speed: 300,
+          });
 
-    <script>
-      $(document).ready(function () {
-        $('.slick').slick({
-          dots: true,
-          arrows: true,
-          autoplay: true,
-          prevArrow: $('.prev'),
-          nextArrow: $('.next'),
-          infinite: true,
-          speed: 300,
+          $('.slick2').slick({
+            slide: '.slide',
+            dots: false,
+            arrows: true,
+            autoplay: true,
+            prevArrow: $('.content-main-new .prev'),
+            nextArrow: $('.content-main-new .next'),
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+          });
         });
 
-        $()
-      });
-
-    </script>
+      </script>
 
 
 
